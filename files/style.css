@@ -572,7 +572,7 @@ section.portada .box-nombres-fecha-portada .ampersand-portada {
   position: absolute;
   z-index: -1;
   width: 180px;
-  top: 215px;
+  top: 0px;
 }
 
 section.portada .box-nombres-fecha-portada .ampersand-portada path {
