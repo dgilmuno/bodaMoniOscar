@@ -13,6 +13,13 @@
   --color-pallete-8: #DD8357;
   --color-pallete-9: #ffffff;
 
+  --color-11: #22443f;
+  --color-12: #7beedb;
+  --color-13: #0f816e;
+  --color-14: #f5f5f5;
+  --color-15: #ffffff;
+  --color-16: #FF4EB8;
+  
 
   /* ----------------------- */
 
@@ -20,45 +27,45 @@
   /* Colores */
   --color-fondo-secciones: var(--color-pallete-5);
   --color-nombres-portada: var(--color-pallete-1);
-  --color-scroll-track: var(--color-pallete-7);
-  --color-scroll-thumb: var(--color-pallete-3);
-  --color-scroll-thumb-hover: var(--color-pallete-2);
-  --color-degradez-1: var(--color-pallete-2);
-  --color-degradez-2: var(--color-pallete-8);
-  --color-iconos: var(--color-pallete-3);
-  --color-ampersand-portada: var(--color-pallete-3);
-  --color-comillas-portada: var(--color-pallete-2);
+  --color-scroll-track: var(--color-14);
+  --color-scroll-thumb: var(--color-12);
+  --color-scroll-thumb-hover: var(--color-13);
+  --color-degradez-1: var(--color-13);
+  --color-degradez-2: var(--color-12);
+  --color-iconos: var(--color-13);
+  --color-ampersand-portada: var(--color-16);
+  --color-comillas-portada: var(--color-13);
   --color-frase-portada: var(--color-pallete-1);
   --color-fecha-portada: var(--color-pallete-2);
-  --color-titulo-cuenta-regresiva: var(--color-pallete-2);
-  --color-numeros-cuenta-regresiva: var(--color-pallete-4);
+  --color-titulo-cuenta-regresiva: var(--color-11);
+  --color-numeros-cuenta-regresiva: var(--color-13);
   --color-titulos: var(--color-pallete-1);
-  --color-subtitulos: var(--color-pallete-2);
+  --color-subtitulos: var(--color-11);
   --color-backdrop-modal: var(--color-pallete-5);
   --color-fondo-modal: var(--color-pallete-6);
-  --color-nota-anim-reproductor: var(--color-pallete-2);
-  --color-circulos-anim-reproductor: var(--color-pallete-3);
+  --color-nota-anim-reproductor: var(--color-16);
+  --color-circulos-anim-reproductor: var(--color-12);
   --color-checkbox: var(--color-pallete-2);
-  --color-ampersand-musica: var(--color-pallete-3);
+  --color-ampersand-musica: var(--color-16);
   --color-backdrop-modal-musica: var(--color-pallete-5);
   --color-nombres-modal-musica: var(--color-pallete-1);
-  --color-fondo-btns-musica: var(--color-pallete-2);
+  --color-fondo-btns-musica: var(--color-13);
   --color-txt-btns-musica: var(--color-pallete-9);
-  --color-fondo-btns-musica-hover: var(--color-pallete-4);
+  --color-fondo-btns-musica-hover: var(--color-13);
   --color-txt-btns-musica-hover: var(--color-pallete-9);
-  --color-txt-bienvenida: var(--color-pallete-4);
+  --color-txt-bienvenida: var(--color-11);
   --color-txt-recomienda-musica: var(--color-pallete-1);
   --color-texto-cuenta-regresiva: var(--color-pallete-1);
-  --color-anim-cta-regresiva: var(--color-pallete-3);
+  --color-anim-cta-regresiva: var(--color-16);
   --color-fondo-anim-eventos: var(--color-pallete-9);
   --color-anim-eventos: var(--color-pallete-1);
-  --color-fondo-titulos-eventos: var(--color-pallete-3);
-  --color-titulos-eventos: var(--color-pallete-1);
+  --color-fondo-titulos-eventos: var(--color-13);
+  --color-titulos-eventos: var(--color-14);
   --color-subtitulos-eventos: var(--color-pallete-1);
   --color-textos-eventos: var(--color-pallete-1);
-  --color-fondo-btns-eventos: var(--color-pallete-2);
+  --color-fondo-btns-eventos: var(--color-16);
   --color-txt-btns-eventos: var(--color-pallete-9);
-  --color-fondo-btns-eventos-hover: var(--color-pallete-4);
+  --color-fondo-btns-eventos-hover: var(--color-16);
   --color-txt-btns-eventos-hover: var(--color-pallete-9);
   --color-anim-galeria: var(--color-pallete-3);
   --color-fondo-polaroid: var(--color-pallete-9);
@@ -67,22 +74,22 @@
   --color-fondo-cards: var(--color-pallete-7);
   --color-titulos-cards: var(--color-pallete-1);
   --color-txt-cards: var(--color-pallete-1);
-  --color-anim-cards: var(--color-pallete-3);
-  --color-shadow-cards: var(--color-pallete-6);
-  --color-fondo-btns-cards: var(--color-pallete-2);
+  --color-anim-cards: var(--color-13);
+  --color-shadow-cards: var(--color-12);
+  --color-fondo-btns-cards: var(--color-16);
   --color-txt-btns-cards: var(--color-pallete-9);
-  --color-fondo-btns-cards-hover: var(--color-pallete-4);
+  --color-fondo-btns-cards-hover: var(--color-16);
   --color-txt-btns-cards-hover: var(--color-pallete-9);
   --color-anim-regalos: var(--color-pallete-3);
-  --color-fondo-btns-instagram: var(--color-pallete-2);
+  --color-fondo-btns-instagram: var(--color-16);
   --color-txt-btns-instagram: var(--color-pallete-5);
-  --color-fondo-btns-instagram-hover: var(--color-pallete-4);
+  --color-fondo-btns-instagram-hover: var(--color-16);
   --color-txt-btns-instagram-hover: var(--color-pallete-5);
-  --color-ampersand-footer: var(--color-pallete-3);
+  --color-ampersand-footer: var(--color-16);
   --color-nombres-footer: var(--color-pallete-1);
   --color-links-footer: var(--color-pallete-2);
   --color-links-footer-hover: var(--color-pallete-1);
-  --color-fondo-firma: var(--color-pallete-2);
+  --color-fondo-firma: var(--color-13);
   --color-txt-firma: var(--color-pallete-9);
   --color-link-firma: var(--color-pallete-9);
   --color-link-firma-hover: var(--color-pallete-8);
@@ -90,9 +97,9 @@
   --color-txt-btns-regalos: var(--color-pallete-5);
   --color-fondo-btns-regalos-hover: var(--color-pallete-4);
   --color-txt-btns-regalos-hover: var(--color-pallete-5);
-  --color-fondo-btns-modales: var(--color-pallete-2);
+  --color-fondo-btns-modales: var(--color-16);
   --color-txt-btns-modales: var(--color-pallete-5);
-  --color-fondo-btns-modales-hover: var(--color-pallete-4);
+  --color-fondo-btns-modales-hover: var(--color-16);
   --color-txt-btns-modales-hover: var(--color-pallete-5);
   --color-titulo-modal-paises: var(--color-pallete-1);
   --color-fondo-loader: var(--color-pallete-5);
@@ -108,17 +115,17 @@
   --color-bordes-inputs-forms: var(--color-pallete-1);
   --color-placeholders-forms: var(--color-pallete-1);
   --color-textos-modales: var(--color-pallete-1);
-  --color-x-cierre-modales: var(--color-pallete-1);
-  --color-hover-x-cierre-modales: var(--color-pallete-2);
+  --color-x-cierre-modales: var(--color-11);
+  --color-hover-x-cierre-modales: var(--color-13);
   --color-inputs-form: var(--color-pallete-1);
-  --color-titulo-modal: var(--color-pallete-2);
+  --color-titulo-modal: var(--color-11);
   --color-input-focus: var(--color-pallete-3);
   --color-titulo-form-enviado: var(--color-pallete-2);
   --color-texto-form-enviado: var(--color-pallete-1);
-  --color-titulo-instagram: var(--color-pallete-2);
+  --color-titulo-instagram: var(--color-11);
   --color-subtitulo-instagram: var(--color-pallete-1);
   --color-modal-galeria: var(--color-pallete-2);
-  --color-anim-instagram: var(--color-pallete-4);
+  --color-anim-instagram: var(--color-13);
 
 
   /* Fuentes */
@@ -240,6 +247,7 @@
   background: var(--color-fondo-btns-modales-hover);
   text-decoration: none;
   color: var(--color-txt-btns-modales-hover);
+  opacity: 0.6;
 }
 
 /* end Botones */
@@ -573,6 +581,7 @@ section.portada .box-nombres-fecha-portada .ampersand-portada {
   z-index: -1;
   width: 180px;
   top: 0px;
+  left: 225px;
 }
 
 section.portada .box-nombres-fecha-portada .ampersand-portada path {
@@ -735,7 +744,7 @@ section.cuenta-regresiva .reloj {
 section.cuenta-regresiva .reloj-col {
   width: 25%;
   border-right: 1px solid var(--color-divisores-cta-regresiva);
-  padding: 0 8px;
+  padding: 0 0px;
   float: left;
 }
 
@@ -854,29 +863,21 @@ section.ceremonia-fiesta .divisor-inferior-eventos {
 /* Adornos seccion eventos */
 section.ceremonia-fiesta .adorno {
   position: absolute;
+  width: 225px;
   height: auto;
+  top: 280px;
+  left: -90px;
 }
 
 section.ceremonia-fiesta .adorno-1 {
-  position: absolute;
-  width: 200px;
-  top: 400px;
-  left: -2px;
+  z-index: 3;
 }
 
-section.ceremonia-fiesta .adorno-2 {
-  position: absolute;
-  width: 175px;
-  top: 470px;
-  left: -1px;
-  z-index: 1;
+section.ceremonia-fiesta .adorno-2 {  
+  z-index: 2;
 }
 
-section.ceremonia-fiesta .adorno-3 {
-  position: absolute;
-  width: 170px;
-  top: 470px;
-  left: -2px;
+section.ceremonia-fiesta .adorno-3 {  
   z-index: 1;
 }
 
@@ -886,14 +887,14 @@ section.ceremonia-fiesta .col-fiesta {
 }
 
 section.ceremonia-fiesta .col-ceremonia .anim-anillos,
-section.ceremonia-fiesta .anim-fiesta {
+section.ceremonia-fiesta .anim-anillos {
   width: 160px;
   height: 160px;
   margin: 0 auto 20px;
 }
 
 section.ceremonia-fiesta .col-ceremonia .anim-anillos,
-section.ceremonia-fiesta .anim-fiesta {
+section.ceremonia-fiesta .anim-anillos {
   width: 175px;
   height: 175px;
   margin: 0 auto 20px;
@@ -905,7 +906,7 @@ section.ceremonia-fiesta .anim-fiesta {
   box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.40);
 }
 
-section.ceremonia-fiesta .col-fiesta .anim-fiesta {
+section.ceremonia-fiesta .col-fiesta .anim-anillos {
   padding: 30px;
 }
 
@@ -930,7 +931,7 @@ section.ceremonia-fiesta .col-fiesta h3:before {
   content: "";
   position: absolute;
   top: 0px;
-  left: -15px;
+  left: -14px;
   width: 20px;
   height: 74px;
   -webkit-clip-path: polygon(100% 0%, 59% 50%, 100% 100%, 25% 100%, 25% 51%, 25% 0%);
@@ -945,13 +946,55 @@ section.ceremonia-fiesta .col-fiesta h3:after {
   content: "";
   position: absolute;
   top: 0px;
-  right: -15px;
+  right: -14px;
   width: 20px;
   height: 74px;
   -webkit-clip-path: polygon(100% 0%, 59% 50%, 100% 100%, 25% 100%, 25% 51%, 25% 0%);
   clip-path: polygon(100% 0%, 59% 50%, 100% 100%, 25% 100%, 25% 51%, 25% 0%);
   background-color: var(--color-fondo-titulos-eventos);
 }
+
+/**/
+
+
+section.fiesta .col-fiesta h3 {
+  font-family: var(--fuente-1);
+  color: var(--color-titulos-eventos);
+  font-size: 45px;
+  display: inline-block;
+  position: relative;
+  min-width: 55%;
+  padding: 10px 0;
+  background-color: var(--color-fondo-titulos-eventos);
+}
+
+section.fiesta .col-fiesta h3:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -14px;
+  width: 20px;
+  height: 74px;
+  -webkit-clip-path: polygon(100% 0%, 59% 50%, 100% 100%, 25% 100%, 25% 51%, 25% 0%);
+  clip-path: polygon(100% 0%, 59% 50%, 100% 100%, 25% 100%, 25% 51%, 25% 0%);
+  background-color: var(--color-fondo-titulos-eventos);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+section.fiesta .col-fiesta h3:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: -14px;
+  width: 20px;
+  height: 74px;
+  -webkit-clip-path: polygon(100% 0%, 59% 50%, 100% 100%, 25% 100%, 25% 51%, 25% 0%);
+  clip-path: polygon(100% 0%, 59% 50%, 100% 100%, 25% 100%, 25% 51%, 25% 0%);
+  background-color: var(--color-fondo-titulos-eventos);
+}
+
+
 
 section.ceremonia-fiesta .info-col {
   margin-top: 30px;
@@ -986,6 +1029,7 @@ section.ceremonia-fiesta .info-col .info-box a.boton {
 section.ceremonia-fiesta .info-col .info-box a.boton:hover {
   background-color: var(--color-fondo-btns-eventos-hover);
   color: var(--color-txt-btns-eventos-hover);
+  opacity: 0.5;
 }
 
 section.ceremonia-fiesta .ondas-2 {
@@ -1238,6 +1282,7 @@ section.fiesta .item-fiesta a.boton:hover {
   width: 85%;
   color: var(--color-txt-btns-cards-hover);
   background: var(--color-fondo-btns-cards-hover);
+  opacity: 0.6;
 }
 
 section.fiesta .item-fiesta .content-item-fiesta {
@@ -1262,7 +1307,7 @@ section.fiesta .item-fiesta .adorno {
 
 section.fiesta .item-fiesta .adorno.adorno-1 {
   position: absolute;
-  top: -100px;
+  top: -85px;
   left: -90px;
   z-index: -1;
   width: 250px;
@@ -1346,9 +1391,68 @@ section.regalos .boton:hover {
 
 /* Instagram */
 
-section.instagram {
-  /* background: url('../img/portada.jpg') center center; */
+section.comparte-instagram {
   position: relative;
+  height: 400px;
+  background-color: var(--color-fondo-secciones);
+}
+
+section.comparte-instagram .container {
+  z-index: 999;
+  position: relative;
+}
+
+section.comparte-instagram .title{
+  color: var(--color-titulo-instagram);
+}
+
+section.comparte-instagram .subtitle{
+  color: var(--color-subtitulo-instagram);
+}
+
+section.comparte-instagram .hashtag {
+  color: var(--color-link-instagram);
+  font-size: 55px;
+  font-family: var(--fuente-1);
+  font-weight: var(--grosor-fuente-regular);
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+section.comparte-instagram .anim-instagram {
+  width: 60px;
+  margin: 0 auto 15px;
+}
+
+section.comparte-instagram .anim-instagram path {
+  stroke: var(--color-anim-instagram);
+  stroke-width: 2px;
+  fill: var(--color-anim-instagram)
+}
+
+section.comparte-instagram .boton {
+  background-color: var(--color-fondo-btns-instagram);
+  color: var(--color-txt-btns-instagram);
+}
+
+section.comparte-instagram .boton:hover {
+  background-color: var(--color-fondo-btns-instagram-hover);
+  color: var(--color-txt-btns-instagram-hover);
+  opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+section.instagram {    
+  position: relative;
+  height: 400px;
+  background-color: var(--color-fondo-secciones);
 }
 
 section.instagram .container {
@@ -1356,6 +1460,7 @@ section.instagram .container {
   z-index: 999;
   padding-top: 160px;
   padding-bottom: 240px;
+  background-color: var(--color-fondo-secciones);
 }
 
 section.instagram .divisor-superior-instagram {
@@ -1439,6 +1544,7 @@ section.instagram .boton {
 section.instagram .boton:hover {
   background-color: var(--color-fondo-btns-instagram-hover);
   color: var(--color-txt-btns-instagram-hover);
+  opacity: 0.6;
 }
 
 
@@ -1772,6 +1878,7 @@ footer svg.firma-footer .x-fixdate{
 #modalMusica .boton:hover {
   color: var(--color-txt-btns-musica-hover);
   background-color: var(--color-fondo-btns-musica-hover);
+  opacity: 0.6;
 }
 
 
