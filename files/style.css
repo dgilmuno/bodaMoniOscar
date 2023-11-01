@@ -3,7 +3,8 @@
 :root {
 
   /* Paleta colores */
-  --color-pallete-1: #4d4d4d;
+  /*--color-pallete-1: #4d4d4d;*/
+  --color-pallete-1: #303030;
   --color-pallete-2: #6f0e01;
   --color-pallete-3: #ffb880;
   --color-pallete-4: #7c7d4f;
@@ -18,7 +19,11 @@
   --color-13: #0f816e;
   --color-14: #f5f5f5;
   --color-15: #ffffff;
-  --color-16: #FF4EB8;
+  /*--color-16: #FF4EB8;*/
+  --color-16: #9B2585;
+  --color-17: #BF2EA4;
+  --color-18: #E336C3;
+  --color-19: #FF3DDB;
   
 
   /* ----------------------- */
