@@ -50,7 +50,7 @@
 <meta name="msapplication-TileImage" content="./img/faviconit/favicon-144.png">
 <meta name="msapplication-config" content="./img/faviconit/browserconfig.xml">
 <style type="text/css">img[onload^="SVGInject("]{visibility:hidden;}</style>
-<script type="text/javascript" charset="UTF-8" src="./files/mail.js"></script>
+<script type="text/javascript" charset="UTF-8" src="./js/email.js"></script>
 <script type="text/javascript" id="www-widgetapi-script" src="./files/www-widgetapi.js" async=""></script>
 
 <script type="text/javascript" src="./js/gMaps.js" async=""></script>
@@ -2213,7 +2213,12 @@
 
       if (isOkSugerirCancion()) //Form bien validado
       {
+        sendMailCancion();
 
+
+
+
+        /*
         // Load and disabled buttom.
         $("#sendSugerenciaCancion").text(lang_enviandoSugerencia + "...");
         $("#sendSugerenciaCancion").prop("disabled", true);
@@ -2285,7 +2290,7 @@
 
             }
 
-          });
+          });*/
       }
 
 
