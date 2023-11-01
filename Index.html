@@ -53,6 +53,7 @@
 <script type="text/javascript" charset="UTF-8" src="./files/mail.js"></script>
 <script type="text/javascript" id="www-widgetapi-script" src="./files/www-widgetapi.js" async=""></script>
 
+<script type="text/javascript" src="./js/gMaps.js" async=""></script>
 
 <script>
   (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
@@ -65,7 +66,12 @@
 
 
 
-<script type="text/javascript" charset="UTF-8" src="./files/common.js"></script><script type="text/javascript" charset="UTF-8" src="./files/util.js"></script><script type="text/javascript" charset="UTF-8" src="./files/map.js"></script><script type="text/javascript" charset="UTF-8" src="./files/marker.js"></script><style type="text/css" id="ate_helper_css">.addeventatc_dropdown .drop_markup {background-color:#f4f4f4;}.addeventatc_dropdown .frs a {margin:0!important;padding:0!important;font-style:normal!important;font-weight:normal!important;line-height:110%!important;background-color:#fff!important;text-decoration:none;font-size:9px!important;color:#cacaca!important;display:inline-block;}.addeventatc_dropdown .frs a:hover {color:#999!important;}.addeventatc .start, .addeventatc .end, .addeventatc .timezone, .addeventatc .title, .addeventatc .description, .addeventatc .location, .addeventatc .organizer, .addeventatc .organizer_email, .addeventatc .facebook_event, .addeventatc .all_day_event, .addeventatc .date_format, .addeventatc .alarm_reminder, .addeventatc .recurring, .addeventatc .attendees, .addeventatc .client, .addeventatc .calname, .addeventatc .uid, .addeventatc .sequence, .addeventatc .status, .addeventatc .method, .addeventatc .transp {display:none!important;}</style></head>
+<!--<script type="text/javascript" charset="UTF-8" src="./files/common.js"></script>-->
+
+<!--<script type="text/javascript" charset="UTF-8" src="./files/util.js"></script>
+<script type="text/javascript" charset="UTF-8" src="./files/map.js"></script>-->
+
+<script type="text/javascript" charset="UTF-8" src="./files/marker.js"></script><style type="text/css" id="ate_helper_css">.addeventatc_dropdown .drop_markup {background-color:#f4f4f4;}.addeventatc_dropdown .frs a {margin:0!important;padding:0!important;font-style:normal!important;font-weight:normal!important;line-height:110%!important;background-color:#fff!important;text-decoration:none;font-size:9px!important;color:#cacaca!important;display:inline-block;}.addeventatc_dropdown .frs a:hover {color:#999!important;}.addeventatc .start, .addeventatc .end, .addeventatc .timezone, .addeventatc .title, .addeventatc .description, .addeventatc .location, .addeventatc .organizer, .addeventatc .organizer_email, .addeventatc .facebook_event, .addeventatc .all_day_event, .addeventatc .date_format, .addeventatc .alarm_reminder, .addeventatc .recurring, .addeventatc .attendees, .addeventatc .client, .addeventatc .calname, .addeventatc .uid, .addeventatc .sequence, .addeventatc .status, .addeventatc .method, .addeventatc .transp {display:none!important;}</style></head>
 
 <body class="" style="" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
   <div class="parallax-mirror" style="visibility: visible; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden; transform: translate3d(0px, 0px, 0px); height: 460px; width: 519px;">
@@ -454,9 +460,10 @@
 
           <div class="info-box">
             <h6>Lugar</h6>
-            <p>Un pazo perdido de la mano de dios</p>            
+            <p>Pazo do Piñeiro</p>            
             <h6>Dirección</h6>
-            <p>En el pazo</p>
+            <p>Lugar Soilán, 1<br>
+              127516 Lugo</p>
             <a href="#" data-evento="Fiesta" class="boton modal-como-llegar">¿Cómo llegar?</a>
           </div>
 
@@ -2339,7 +2346,7 @@
 
       e.preventDefault();
 
-      var evento = $(this).attr('data-evento');
+      /*var evento = $(this).attr('data-evento');
 
       if (evento == 'Fiesta') {
         var titleModalMapa = lang_titleModalMapaFiesta;
@@ -2353,16 +2360,17 @@
 
         var latitudMapa = latitudCeremonia;
         var longitudMapa = longitudCeremonia;
-      }
+      }*/
 
       // Cambio titulo
-      $('#modalMapa .modal-title').text(titleModalMapa);
+      //$('#modalMapa .modal-title').text(titleModalMapa);
 
       // Genero el link para ampliar mapa
-      $('.ampliar-mapa').attr('href', 'https://www.google.com/maps/search/?api=1&query=' + latitudMapa + ',' + longitudMapa);
+      //$('.ampliar-mapa').attr('href', 'https://www.google.com/maps/search/?api=1&query=' + latitudMapa + ',' + longitudMapa);
 
       // Cambio mapa
-      initMap(latitudMapa, longitudMapa);
+      //debugger;
+      //iniciarMapa(latitudMapa, longitudMapa);
 
       $('#modalMapa').modal({
         backdrop: 'static'
@@ -2400,173 +2408,6 @@
       imageSrc: _pathProducto + imageInstagramParallax
     });
   </script>
-
-
-  <!-- Api Maps-->
-    <script async="" defer="" src="./files/js.js">
-  </script>
-
-
-  <script>
-    // Config map
-    function initMap(latitud = 0, longitud = 0) {
-
-      var myLatLng = {
-        lat: latitud,
-        lng: longitud
-      };
-
-      var mapOptions = {
-        // How zoomed in you want the map to start at (always required)
-        zoom: 15,
-        scrollwheel: false,
-        disableDefaultUI: false,
-
-        // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(latitud, longitud),
-
-        // How you would like to style the map.
-        // This is where you would paste any style found on Snazzy Maps.
-        styles: [{
-            "featureType": "administrative",
-            "elementType": "labels.text.fill",
-            "stylers": [{
-              "color": "#6195a0"
-            }]
-          },
-          {
-            "featureType": "landscape",
-            "elementType": "all",
-            "stylers": [{
-              "color": "#f2f2f2"
-            }]
-          },
-          {
-            "featureType": "landscape",
-            "elementType": "geometry.fill",
-            "stylers": [{
-              "color": "#ffffff"
-            }]
-          },
-          {
-            "featureType": "poi",
-            "elementType": "all",
-            "stylers": [{
-              "visibility": "off"
-            }]
-          },
-          {
-            "featureType": "poi.park",
-            "elementType": "geometry.fill",
-            "stylers": [{
-                "color": "#e6f3d6"
-              },
-              {
-                "visibility": "on"
-              }
-            ]
-          },
-          {
-            "featureType": "road",
-            "elementType": "all",
-            "stylers": [{
-                "saturation": -100
-              },
-              {
-                "lightness": 45
-              },
-              {
-                "visibility": "simplified"
-              }
-            ]
-          },
-          {
-            "featureType": "road.highway",
-            "elementType": "all",
-            "stylers": [{
-              "visibility": "simplified"
-            }]
-          },
-          {
-            "featureType": "road.highway",
-            "elementType": "geometry.fill",
-            "stylers": [{
-                "color": "#f4d2c5"
-              },
-              {
-                "visibility": "simplified"
-              }
-            ]
-          },
-          {
-            "featureType": "road.highway",
-            "elementType": "labels.text",
-            "stylers": [{
-              "color": "#4e4e4e"
-            }]
-          },
-          {
-            "featureType": "road.arterial",
-            "elementType": "geometry.fill",
-            "stylers": [{
-              "color": "#f4f4f4"
-            }]
-          },
-          {
-            "featureType": "road.arterial",
-            "elementType": "labels.text.fill",
-            "stylers": [{
-              "color": "#787878"
-            }]
-          },
-          {
-            "featureType": "road.arterial",
-            "elementType": "labels.icon",
-            "stylers": [{
-              "visibility": "off"
-            }]
-          },
-          {
-            "featureType": "transit",
-            "elementType": "all",
-            "stylers": [{
-              "visibility": "off"
-            }]
-          },
-          {
-            "featureType": "water",
-            "elementType": "all",
-            "stylers": [{
-                "color": "#eaf6f8"
-              },
-              {
-                "visibility": "on"
-              }
-            ]
-          },
-          {
-            "featureType": "water",
-            "elementType": "geometry.fill",
-            "stylers": [{
-              "color": "#eaf6f8"
-            }]
-          }
-        ]
-
-      };
-
-      var mapElement = document.getElementById('googleMap');
-
-      var map = new google.maps.Map(mapElement, mapOptions);
-
-      var marker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-      });
-
-    }
-  </script>
-
 
   <!-- AddEvent script -->
   <script type="text/javascript" src="./files/atc.min.js" async="" defer=""></script>
