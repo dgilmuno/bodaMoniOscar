@@ -7,7 +7,7 @@ var settings = {
     "headers": {
       "Content-Type": "application/json",
       "Authorization": "Basic NDUzZDMyZTk5OTRkYWQ5NzMwNDYwZTkyNjY1ZmRjM2Q6M2E0YjBlYmJlMjdlMWJmYTEyYjAzMmQ5MjRiMjE3ZjU=",
-      "Access-Control-Allow-Origin": "http://localhost/boda"
+      "Access-Control-Allow-Origin": "*"
     },
     "data": JSON.stringify({
       "Messages": [
