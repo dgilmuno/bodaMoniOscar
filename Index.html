@@ -2468,25 +2468,7 @@
 
 <!-- Portada parallax -->
 <script>
-  if (device == 'mobile' || $(window).width() < 768) {
-
-    // Aceptar webp?
-    if (support_format_webp()) {
-      var imageParallax = 'img/foto.jgp';
-    } else {
-      var imageParallax = 'img/foto.jpg';
-    }
-
-  } else {
-
-    // Aceptar webp?
-    if (support_format_webp()) {
-      var imageParallax = 'img/foto.jpg';
-    } else {
-      var imageParallax = 'img/foto.jpg';
-    }
-
-  }
+  var imageParallax = 'img/foto.jpg';  
 
   $('.portada-picture').parallax({
     imageSrc: _pathProducto + imageParallax
